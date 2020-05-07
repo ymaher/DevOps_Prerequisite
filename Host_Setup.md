@@ -1,6 +1,6 @@
 ## Setting Up
 
-There are three ways we can have host
+### There are three ways we can have host
 
 - https://signin.aws.amazon.com/ New instance ubuntu
 - VM where we can have ubuntu OS installed
