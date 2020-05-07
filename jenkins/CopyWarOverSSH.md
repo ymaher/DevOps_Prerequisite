@@ -25,8 +25,8 @@
   
 - Remove the Post Build Action and choose Send artifact over SSH
   - Enter the Name of the SSH Server
-  - Transfers: Provide the Source file as : afterjob name `/Webapp/target/*.war`
-  - Remove prefix: /webapp/target
+  - Transfers: Provide the Source file as : afterjob name `Webapp/target/*.war`
+  - Remove prefix: `webapp/target`
   - Remote directory: path of the file you want to receive artifact or you can just give `. for current directory`
   - Assuming you have a dockerfile already on the same location
   - Exec cmd
