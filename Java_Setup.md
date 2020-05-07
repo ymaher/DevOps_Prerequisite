@@ -1,4 +1,4 @@
-## Setting up Jenkins
+## Setting up Java
 
 ### Pre-requisite 
 - Host [~we have ubuntu~]
