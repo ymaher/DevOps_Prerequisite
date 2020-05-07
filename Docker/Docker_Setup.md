@@ -13,6 +13,7 @@
 > `$ sudo apt install docker.io`
 - Start and Automate Docker
 > `$ sudo systemctl start docker`
+
 > `$ sudo systemctl enable docker`
 - Check Docker Version
 > `$ docker --version`
