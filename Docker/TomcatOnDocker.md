@@ -12,3 +12,7 @@
 
 - To run the container on desired port follow the below cmd
 > `$ sudo docker run --rm -it -dp 8888:8080 ymaher/tomcat_user  `
+
+- You can visit `https://localhost:8888/` to verify if tomcat is running.
+
+- Enter the credentials username:`tomcat` password:`s3cret` for accessing manager app.
