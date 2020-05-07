@@ -20,6 +20,6 @@
   - Goals- like clean install package
 - Post Build Action
   - Select War/Ear and give `**/*.war`
-  - Provide `Tomcat URL` which is hosted with [docker]() click on docker to set up tomcat
+  - Provide `Tomcat URL` ex:`https://localhost:8888/` which is hosted with [docker](https://github.com/ymaher/DevOps_Prerequisite/blob/master/Docker/TomcatOnDocker.md) click on docker to set up tomcat
 - Save the configuration and click on Build now.
 - The `War` file will be created under `tomcat/webapps/target`
