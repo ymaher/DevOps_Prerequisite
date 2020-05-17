@@ -4,7 +4,7 @@
 
 - **One Ansible machine/VM** which is running on ubuntu 18 or above which will act as **Ansible Control Node**
   - Non-root user with sudo privileges.
-    - To set up user with sudo privileges
+    - **To set up user with sudo privileges:**
     
     > `$ sudo su -`
     
@@ -29,7 +29,7 @@
     
     > `$ sudo usermod -aG sudo <user_name> `
  
-  - An SSH keypair associated with this user
+  - **An SSH keypair associated with this user:**
     - Creating the Key Pair
     > `$ sudo ssh-keygen`
     
