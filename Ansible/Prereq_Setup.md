@@ -58,6 +58,7 @@
     
 - **One or more Ansible Hosts:** An Ansible host is any machine that your Ansible control node is configured to automate.
 	- The Ansible control node’s SSH public key added to the authorized_keys of a system user. This user can be either root or a regular user with sudo privileges. 
+	
 	To set this up, you can follow above above steps for **SSH keypair associated with this user**
     
     
