@@ -58,3 +58,15 @@
  12. Copy the kubeadm join command and keep it safe for future use to join new nodes
  
  
+13. Configuring pod network on Master node
+ 
+ > `$ kubectl apply -f \ https://raw.githubusercontent.com/coreos/flannel/v0.9.1/Documentation/kube-flannel.yml`
+ 
+14. To check if Pod network in intsalled, we can do it by
+ 
+ > `$ kubectl get pods --all-namespaces`
+ 
+15 . Only in (worker node)
+ 
+ > `$ paste the cmd which you have copied from master node wile init`
+ 
