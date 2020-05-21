@@ -47,6 +47,14 @@
   EOF
   
   sysctl --system
-  ```
-  
+ ```
+ 
+ 10. Only on (master node)
+ 
+ >`$ kubeadm init --pod-network-cidr=10.240.0.0/16`
+ 
+ 11. We need to run few command as local user as will be mentioned on the screen
+ 
+ 12. Copy the kubeadm join command and keep it safe for future use to join new nodes
+ 
  
