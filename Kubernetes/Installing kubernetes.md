@@ -28,7 +28,7 @@
 5. Add kubernetes repo (master and worker nodes)
  
  ```
- cat <<EOF > etc/yum.repos.d/kubernetes.repo
+ cat <<EOF > /etc/yum.repos.d/kubernetes.repo
  [kubernetes]
  name=Kubernetes
  baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64
@@ -86,7 +86,11 @@
  
 13. Configuring pod network on Master node
  
- > `$ kubectl apply -f \ https://raw.githubusercontent.com/coreos/flannel/v0.9.1/Documentation/kube-flannel.yml`
+ > `$ kubectl apply -f https://github.com/coreos/flannel/raw/master/Documentation/kube-flannel.yml`
+ 
+ if any error
+ 
+ > `$ kubectl create -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel-rbac.yml`
  
 14. To check if Pod network in intsalled, we can do it by
  
