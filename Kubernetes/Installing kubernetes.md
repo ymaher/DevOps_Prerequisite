@@ -66,7 +66,10 @@
  
  > `$ kubectl get pods --all-namespaces`
  
-15 . Only in (worker node)
+15. Only in (worker node)
  
- > `$ paste the cmd which you have copied from master node wile init`
+ > `$ "kubeadm join token" cmd which you have copied from master node wile init`
  
+16. To create new token (~not recommended~)
+
+> `$ kubeadm token create --print-join-command`
